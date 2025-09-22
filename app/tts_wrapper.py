@@ -2,7 +2,7 @@ import os
 from typing import Optional
 from .config import DEFAULT_EMO_ALPHA
 
-ENV_CKPT = "INDEXTTS_CHECKPOINTS"  # 环境变量：指向包含 config.yaml 的目录
+ENV_CKPT = "INDEXTTS_CHECKPOINTS"  # 指向包含 config.yaml 的目录
 
 class MissingIndexTTS(Exception):
     pass
@@ -14,7 +14,6 @@ def _to_bool(v: Optional[str], default: bool) -> bool:
 
 class TTSWrapper:
     """
-    极简封装（单声线）：
     - 优先使用构造参数 checkpoints_dir，其次用环境变量 INDEXTTS_CHECKPOINTS，最后回退 D:\\index-tts\\checkpoints
     - 只调用 IndexTTS2.infer()
     """
