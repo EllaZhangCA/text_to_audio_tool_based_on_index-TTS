@@ -1,5 +1,3 @@
-# app/merging.py
-# -*- coding: utf-8 -*-
 import os
 import re
 from typing import List, Optional
