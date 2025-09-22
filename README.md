@@ -25,10 +25,14 @@ conda activate Index-TTS
 pip install -r requirements.txt
 ```
 ## 启动方式
+（假设此项目在D:\t2a）
+```bash
+cd D:\t2a
+```
 ```bash
 python main.py
 ```
-默认在 `http://127.0.0.1:7861` 启动，如需变更，可以在gui.py的最底下更改。
+默认在 `http://127.0.0.1:7861` 启动。
 
 启动main.py后通过浏览器打开http://127.0.0.1:7861
 
