@@ -3,7 +3,7 @@
 基于 [index-tts / IndexTTS2](https://github.com/index-tts/index-tts) 的小说转听书工具。
 本仓库只包含本项目代码与依赖清单，不包含 IndexTTS 的模型与仓库内容。
 
-> 重要：如果不选择下载右边的release版本的话，请先按 IndexTTS2 官方说明安装好运行环境与模型（含 `checkpoints/`），本项目仅在其之上提供 GUI、台词抽取与批量合成逻辑。
+> 重要：如果不选择下载右边的release版本的话，请先按 IndexTTS2 官方说明安装好运行环境与模型，本项目仅在其之上提供 GUI、台词抽取与合成。
 
 ## 功能概览
 此项目可以快速将大段文字转换成用指定声线有感情地朗读的有声书
